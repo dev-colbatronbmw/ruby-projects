@@ -1,0 +1,164 @@
+
+; Colby Holmstead
+; Turtle Graphics
+; Jan 8 2019
+; class (CIS282)
+;This project was to make a turtle write the words “Ruby Rules”
+
+; set the boundaries 
+fence
+
+;set the start position
+pu setpos [-340 -10]
+
+
+
+;start letter “R” in Ruby
+setcolor(1)
+pd
+fd 200
+rt 90
+fd 25
+repeat 180 [rt 1 fd 1] 
+fd 25
+back 25
+rt 225
+fd 120
+
+;get to "U" Start Position
+pu
+seth 90
+fd 7
+left 90
+fd 200
+rt 180
+
+
+;Start letter "U" in ruby
+setcolor (5)
+pd
+fd 145
+repeat 180 [lt 1 fd 1]
+fd 145
+pu
+
+;get to "B" start position
+rt 90
+fd 7
+
+;start Letter "B" in ruby
+setcolor (8)
+pd
+rt 90
+fd 200
+lt 90
+fd 40
+repeat 180 [lt 1 fd 1]
+rt 90
+fd 10
+rt 90
+repeat 1.75 [repeat 120 [lt 1.5 fd 1]]
+fd 38
+
+; get to letter “Y” start position
+pu
+rt 180
+fd 100
+
+; Start letter “Y” in Ruby
+pd 
+setcolor (6)
+rt 45
+fd 75
+lt 90
+fd 75
+back 75
+rt 90
+rt 45
+fd 150
+
+; get to next word “R” for Rules
+pu
+lt 90
+back 390
+Rt 90
+fd 200
+rt 180
+
+
+;start letter “R” in Rules
+setcolor(14)
+pd
+fd 200
+rt 90
+fd 25
+repeat 180 [rt 1 fd 1] 
+fd 25
+back 25
+rt 225
+fd 120
+
+;get to "U" Start Position
+pu
+seth 90
+fd 7
+left 90
+fd 200
+rt 180
+
+
+;Start letter "U" in rules
+setcolor (13)
+pd
+fd 145
+repeat 180 [lt 1 fd 1]
+fd 145
+pu
+
+;get to “L” start position
+rt 90
+fd 7
+
+; start letter “L” in Rules
+pd
+rt 90
+fd 200
+lt 90
+fd 100
+
+; get to “E” Start Position
+pu
+fd 7
+
+; Start “E” in Rules
+pd
+setcolor (10)
+fd 100
+back 100
+lt 90
+fd 100
+rt 90
+fd 100
+back 100
+lt 90
+fd 100
+rt 90
+fd 100
+
+
+; get to “S” Start Position
+pu 
+fd 130
+
+; Start “S” in Rules
+pd
+setcolor (12)
+lt 180
+fd 25
+repeat 160[lt 1 fd 1]
+seth 90
+fd 25
+repeat 160[rt 1 fd 1]
+seth 270
+fd 50
+
